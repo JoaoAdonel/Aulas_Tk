@@ -1,0 +1,22 @@
+print tkinter import *
+
+ janela = Tk()
+
+ # widgets
+ bt1 = Button(janela, text="bt 1",font="arial 36")
+ bt2 = Button(janela, text="bt 2", font="arial 36")
+ bt3 = Button(janela, text="bt 3", font="arial 36")
+ bt4 = Button(janela, text="bt 4", font="arial 36")
+ bt5 = Button(janela, text="bt 5", font="arial 36")
+ bt6 = Button(janela, text="bt 6", font="arial 36")
+
+ bt1.grid()
+ bt2.grid()
+ bt3.grid()
+ bt4.grid()
+ bt5.grid()
+ bt6.grid()
+
+
+
+ janela.mainloop()
